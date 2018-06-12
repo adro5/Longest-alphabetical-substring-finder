@@ -2,7 +2,7 @@
 """
 Created on Sun Jun 10 19:45:19 2018
 
-@author: macro
+@author: Adam Robinson
 """
 s = str(input("Enter a string of letters: "))
 index = 0
@@ -19,4 +19,4 @@ while index <= (len(s) - 1):
             result += s[index - count + 1: index + 1]
             count = 1      
     index += 1
-print("Longest substring in alphabetical order is: " + result) # should be bklm
+print("Longest substring in alphabetical order is: " + result)
